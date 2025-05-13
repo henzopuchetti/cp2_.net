@@ -43,6 +43,11 @@ A estrutura do projeto é dividida em múltiplas camadas, promovendo uma arquite
      "OracleConnection": "User Id=seu_usuario;Password=sua_senha;Data Source=seu_host:porta/servico"
    }
 
+2. Execute as migrations depois da configuração do banco:
+dotnet ef migrations add InitialCreate --project LembreteMedicamentos.Data --startup-project LembreteMedicamentos.API
+
+dotnet ef database update --project LembreteMedicamentos.Data --startup-project LembreteMedicamentos.API
+
 
 ▶️ Executando a Aplicação
 Abra a solução no Visual Studio (.sln).
