@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LembreteMedicamentos.Data\LembreteMedicamentos.Data.csproj" />
+    <ProjectReference Include="..\LembreteMedicamentos.Domain\LembreteMedicamentos.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
